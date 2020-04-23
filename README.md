@@ -11,7 +11,7 @@ Pipeline described here:
 
 More apparatus images
 entire visualization
-![endoscopes](__images\vis.png)
+![endoscopes](__images/vis.png)
 individual cams
 ![individual cams](__images\indivcams.png)
 static cam kinematic chain
