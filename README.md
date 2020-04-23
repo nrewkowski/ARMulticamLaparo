@@ -8,3 +8,15 @@ In the individual cam Unity project (LocalCameraPredictionsUnity1-8), the code t
 
 Pipeline described here:
 ![Pipeline](pipeline.png)
+
+More apparatus images
+individual cams
+![individual cams](indivcams.png)
+static cam kinematic chain
+![static cam kinematic chain](staticcam.png)
+zoom in on local peg
+![zoom in on local peg](localpeg.png)
+manipulator cam before calib
+![manipulator cam before calib](dyncam1.png)
+manipulator cam after calib
+![manipulator cam after calib](dyncam2.png)
