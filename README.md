@@ -10,6 +10,8 @@ Pipeline described here:
 ![Pipeline](pipeline.png)
 
 More apparatus images
+entire visualization
+![endoscopes](__images\vis.png)
 individual cams
 ![individual cams](__images\indivcams.png)
 static cam kinematic chain
@@ -31,4 +33,4 @@ main marker
 endoscopes
 ![endoscopes](__images\endo.png)
 cam placement
-![endoscopes](__images\cams.jpg)
+![cam placement](__images\cams.jpg)
