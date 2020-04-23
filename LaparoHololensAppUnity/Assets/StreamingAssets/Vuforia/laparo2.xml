@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="wolfmarkerblurred" size="0.015000 0.015000"/>
+        <ImageTarget name="7cm" size="0.070000 0.070000"/>
+        <ImageTarget name="7x7_1000-0" size="0.050000 0.050000"/>
+        <ImageTarget name="Checkerboard-A3-50mm-7x4" size="0.050000 0.035333"/>
+        <ImageTarget name="orientedNoise3" size="0.010000 0.010000"/>
+        <ImageTarget name="orientedNoise2" size="1.000000 1.000000"/>
+        <ImageTarget name="52260073-black-and-white-noise-pattern-vector-background" size="1.000000 1.000000"/>
+        <ImageTarget name="dragon" size="0.015000 0.015000"/>
+        <ImageTarget name="bear2" size="0.015000 0.015000"/>
+        <ImageTarget name="bear" size="0.015000 0.015000"/>
+        <ImageTarget name="wolf2" size="0.015000 0.015000"/>
+        <ImageTarget name="boar" size="0.015000 0.015000"/>
+        <ImageTarget name="tiger" size="0.015000 0.015169"/>
+        <ImageTarget name="panther" size="0.015000 0.015000"/>
+        <ImageTarget name="snake" size="0.015000 0.015000"/>
+        <ImageTarget name="rhino" size="0.015000 0.015000"/>
+        <ImageTarget name="redbird" size="0.015000 0.015000"/>
+        <ImageTarget name="wolf" size="0.015000 0.015000"/>
+        <ImageTarget name="eagle" size="0.015000 0.014310"/>
+        <ImageTarget name="15600376-large" size="0.015000 0.015169"/>
+        <ImageTarget name="fcomplex2" size="0.015000 0.014413"/>
+        <ImageTarget name="fcomplex" size="0.015000 0.015000"/>
+        <ImageTarget name="f2" size="0.015000 0.015412"/>
+        <ImageTarget name="f" size="0.015000 0.015000"/>
+        <ImageTarget name="Capture" size="0.015000 0.015135"/>
+        <ImageTarget name="a" size="0.015000 0.013402"/>
+        <ImageTarget name="marker" size="0.015000 0.015187"/>
+        <ImageTarget name="barcode" size="0.015000 0.015000"/>
+        <ImageTarget name="laparobw" size="0.015000 0.015000"/>
+        <ImageTarget name="dronebw" size="0.015000 0.025928"/>
+        <ImageTarget name="download" size="0.100000 0.100000"/>
+        <ImageTarget name="laparo" size="0.015000 0.015000"/>
+        <ImageTarget name="animalcube.Top" size="0.015000 0.015000"/>
+        <ImageTarget name="animalcube.Front" size="0.015000 0.015000"/>
+        <ImageTarget name="animalcube.Left" size="0.015000 0.015000"/>
+        <ImageTarget name="animalcube.Bottom" size="0.015000 0.015000"/>
+        <ImageTarget name="animalcube.Right" size="0.015000 0.015000"/>
+        <ImageTarget name="animalcube.Back" size="0.015000 0.015000"/>
+        <MultiTarget name="animalcube">
+            <Part name="animalcube.Left" translation="-0.007499999832361937 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="animalcube.Right" translation="0.007499999832361937 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="animalcube.Front" translation="0 0 0.007499999832361937" rotation="AD: 1 0 0 0"/>
+            <Part name="animalcube.Back" translation="0 0 -0.007499999832361937" rotation="AD: 0 1 0 180"/>
+            <Part name="animalcube.Top" translation="0 0.007499999832361937 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="animalcube.Bottom" translation="0 -0.007499999832361937 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
