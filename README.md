@@ -11,12 +11,16 @@ Pipeline described here:
 
 More apparatus images
 individual cams
-![individual cams](indivcams.png)
+![individual cams](__images\indivcams.png)
 static cam kinematic chain
-![static cam kinematic chain](staticcam.png)
+![static cam kinematic chain](__images\staticcam.png)
 zoom in on local peg
-![zoom in on local peg](localpeg.jpg)
+![zoom in on local peg](__images\localpeg.jpg)
 manipulator cam before calib
-![manipulator cam before calib](dyncam1.png)
+![manipulator cam before calib](__images\dyncam1.png)
 manipulator cam after calib
-![manipulator cam after calib](dyncam2.png)
+![manipulator cam after calib](__images\dyncam2.png)
+virtual pegboard locations
+![virtual pegboard locations](__images\pegcalib.jpg)
+vive tracker positioning
+![vive tracker positioning](__images\markercalib.jpg)
