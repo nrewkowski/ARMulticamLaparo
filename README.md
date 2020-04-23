@@ -10,27 +10,39 @@ Pipeline described here:
 ![Pipeline](__images/pipeline.png)
 
 More apparatus images
+
 entire visualization
 ![endoscopes](__images/vis.png)
+
 individual cams
 ![individual cams](__images/indivcams.png)
+
 static cam kinematic chain
 ![static cam kinematic chain](__images/staticcam.png)
+
 zoom in on local peg
 ![zoom in on local peg](__images/localpeg.jpg)
+
 manipulator cam before calib
 ![manipulator cam before calib](__images/dyncam1.png)
+
 manipulator cam after calib
 ![manipulator cam after calib](__images/dyncam2.png)
+
 virtual pegboard locations
 ![virtual pegboard locations](__images/pegcalib.jpg)
+
 vive tracker positioning
 ![vive tracker positioning](__images/markercalib.jpg)
+
 more apparatus
 ![more apparatus](__images/teaser2.png)
+
 main marker
 ![main marker](__images/mainmarker.png)
+
 endoscopes
 ![endoscopes](__images/endo.png)
+
 cam placement
 ![cam placement](__images/cams.jpg)
