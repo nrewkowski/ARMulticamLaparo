@@ -24,3 +24,11 @@ virtual pegboard locations
 ![virtual pegboard locations](__images\pegcalib.jpg)
 vive tracker positioning
 ![vive tracker positioning](__images\markercalib.jpg)
+more apparatus
+![more apparatus](__images\teaser2.png)
+main marker
+![main marker](__images\mainmarker.png)
+endoscopes
+![endoscopes](__images\endo.png)
+cam placement
+![endoscopes](__images\cams.jpg)
