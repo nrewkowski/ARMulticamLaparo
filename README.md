@@ -15,7 +15,7 @@ individual cams
 static cam kinematic chain
 ![static cam kinematic chain](staticcam.png)
 zoom in on local peg
-![zoom in on local peg](localpeg.png)
+![zoom in on local peg](localpeg.jpg)
 manipulator cam before calib
 ![manipulator cam before calib](dyncam1.png)
 manipulator cam after calib
