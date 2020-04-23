@@ -41,7 +41,7 @@ more apparatus
 main marker
 ![main marker](__images/mainmarker.png)
 
-endoscopes
+endoscopes/borescopes: https://www.ebay.com/itm/Endoscope-5-5mm-Borescope-Camera-Inspection-For-Android-PC-Laptop-Waterproof-LED/272969087508?hash=item3f8e39ba14:m:mKOxQf8Ih-aXqAamVBQcwWA 
 ![endoscopes](__images/endo.png)
 
 cam placement
