@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="defocused" size="0.015000 0.014309" />
+    <ImageTarget name="monospectrum4x4" size="0.015000 0.014876" />
+    <ImageTarget name="colors3" size="0.015000 0.015000" />
+    <ImageTarget name="colors2" size="0.015000 0.015000" />
+    <ImageTarget name="colors" size="0.015000 0.015000" />
+    <ImageTarget name="dragonblurredmore" size="0.015000 0.015000" />
+    <ImageTarget name="dragonblurred" size="0.015000 0.015000" />
+    <ImageTarget name="dragonsmaller" size="0.015000 0.015000" />
+  </Tracking>
+</QCARConfig>
