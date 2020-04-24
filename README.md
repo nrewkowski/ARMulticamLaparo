@@ -11,6 +11,27 @@ Pipeline described here:
 
 More apparatus images
 
+vivetracker
+![vivetracker](__images/vivetracker.jpg)
+
+hololens
+![hololens](__images/hololens.png)
+
+vuforia features
+![vuforia features](__images/vuforiafeatures.jpg)
+
+vuforia image trackability ranks
+![vuforia image trackability ranks](__images/vuforiaranks.jpg)
+
+before translation or yaw correction
+![before translation or yaw correction](__images/beforetrans.jpg)
+
+after translation, before yaw correction
+![after translation, before yaw correction](__images/beforerot.jpg)
+
+after correction
+![after correction](__images/corrected.jpg)
+
 entire visualization
 ![endoscopes](__images/vis.png)
 
