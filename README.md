@@ -4,7 +4,7 @@ In the Hololens Unity project (LaparoHololensAppUnity), the script doing most of
 
 In the Pooler Thread UE4 project (LaparoViveTrackersPooling), most of the code is in a blueprint script called trackingpawn in LaparoViveTrackersPooling/Content/trackingpawn.uasset (only openable in UE4)
 
-In the individual cam Unity project (LocalCameraPredictionsUnity1-8), the code that does most of the work finding and sending the marker positions through UDP is in LocalCameraPredictionsUnity1/Assets/LaparoCameraManager.cs. Only LaparoHololensAppUnity1 has a REAL Assets directory. The other folders are Unity projects that have a symbolic link to the Assets of LaparoHololensAppUnity1 to trick Unity into thinking they're different projects (Unity will not open multiple of the same project). (makelink is done from within a copied project's folder with "mklink /D Assets ..\LaparoHololensAppUnity1\Assets")
+In the individual cam Unity project (LocalCameraPredictionsUnity1-8), the code that does most of the work finding and sending the marker positions through UDP is in LocalCameraPredictionsUnity1/Assets/LaparoCameraManager.cs. Camera info pairing is saved in DefaultLaparoCameraInfo.cs. Only LocalCameraPredictionsUnity1 has a REAL Assets directory. The other folders are Unity projects that have a symbolic link to the Assets of LocalCameraPredictionsUnity1 to trick Unity into thinking they're different projects (Unity will not open multiple of the same project). (makelink is done from within a copied project's folder with "mklink /D Assets ..\LocalCameraPredictionsUnity1\Assets")
 
 Pipeline described here:
 ![Pipeline](__images/pipeline.png)
