@@ -51,7 +51,7 @@ manipulator cam after calib
 ![manipulator cam after calib](__images/dyncam2.png)
 
 virtual pegboard locations
-![virtual pegboard locations](__images/pegcalib.jpg)
+![virtual pegboard locations](__images/pegcalibnames.jpg)
 
 vive tracker positioning
 ![vive tracker positioning](__images/markercalib.jpg)
