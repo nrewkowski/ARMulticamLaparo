@@ -15,11 +15,13 @@ public class LaparoInfo{
     public int usbPortNumber;
     public string vuforiaWebcamName;
     public int whichUDPPortToUse;
-    public LaparoInfo(string[] nameOfMarkerForBaseCalibrationIn, int usbPortNumberIn, string vuforiaWebcamNameIn,int whichUDPPortToUseIn){
+    public Color colorForDisplay;
+    public LaparoInfo(string[] nameOfMarkerForBaseCalibrationIn, int usbPortNumberIn, string vuforiaWebcamNameIn,int whichUDPPortToUseIn, Color camColor){
         nameOfMarkerForBaseCalibration=nameOfMarkerForBaseCalibrationIn;
         usbPortNumber=usbPortNumberIn;
         vuforiaWebcamName=vuforiaWebcamNameIn;
         whichUDPPortToUse=whichUDPPortToUseIn;
+        colorForDisplay=camColor;
     }
 }
 
@@ -32,13 +34,13 @@ public class DefaultLaparoCameraInfo:MonoBehaviour{
     public LaparoEndoscopesInfoPairs laparoCameraInfoPairs = new LaparoEndoscopesInfoPairs
         {
             //appears defective
-            { LaparoEndoscopes.LeftHand, new LaparoInfo(new[]{"wolf"},52,"Endoscope52",8560) },
-            { LaparoEndoscopes.RightHand, new LaparoInfo(new[]{"tiger"},4,"Endoscope4",8561) },
+            { LaparoEndoscopes.LeftHand, new LaparoInfo(new[]{"wolf"},52,"Endoscope52",8560, Color.red) },
+            { LaparoEndoscopes.RightHand, new LaparoInfo(new[]{"tiger"},4,"Endoscope4",8561, Color.green) },
             //port doesn't matter here b/c there's only 1 of these
-            { LaparoEndoscopes.BottomMiddle, new LaparoInfo(new[]{"wolfmarkerblurred", "wolf2"},-1,"YPCendoscope",8562) },
-            { LaparoEndoscopes.BottomLeft, new LaparoInfo(new[]{"wolfmarkerblurred", "wolf2"},25,"Endoscope25",8563) },
-            { LaparoEndoscopes.BottomRight, new LaparoInfo(new[]{"tiger"},3,"Endoscope3",8564) },
-            { LaparoEndoscopes.TopLeft, new LaparoInfo(new[]{"tiger"},1,"Endoscope1",8565) },
-            { LaparoEndoscopes.TopRight, new LaparoInfo(new[]{"wolfmarkerblurred", "wolf2"},2,"Endoscope2",8566) }
+            { LaparoEndoscopes.BottomMiddle, new LaparoInfo(new[]{"wolfmarkerblurred", "wolf2"},-1,"YPCendoscope",8562, Color.magenta) },
+            { LaparoEndoscopes.BottomLeft, new LaparoInfo(new[]{"wolfmarkerblurred", "wolf2"},25,"Endoscope25",8563, new Color(255,150,0)) },
+            { LaparoEndoscopes.BottomRight, new LaparoInfo(new[]{"tiger"},3,"Endoscope3",8564, Color.cyan) },
+            { LaparoEndoscopes.TopLeft, new LaparoInfo(new[]{"tiger"},1,"Endoscope1",8565, Color.blue) },
+            { LaparoEndoscopes.TopRight, new LaparoInfo(new[]{"wolfmarkerblurred", "wolf2"},2,"Endoscope2",8566, Color.yellow) }
         };
 }

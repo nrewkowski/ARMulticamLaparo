@@ -7,6 +7,7 @@ using System.Text;
 using System.IO;
 using System.Linq;
 using System.Net;
+using UnityEngine.UI;
 using System.Threading;
 
 #if UNITY_WSA_10_0 && !UNITY_EDITOR
@@ -30,7 +31,8 @@ public class LaparoCameraManager : MonoBehaviour
     //
     //int PORT = 8551;
     UdpClient udpClient;
-    //using local IP to send to ue4 for ue4 to merge results for hololens to take load from hololens
+
+    //using local PC IP to send to ue4 for ue4 to merge results for hololens to take load from hololens
     public string ipToSendTo="192.168.1.21";
 
     public nickmarker baseMarker;
@@ -78,6 +80,11 @@ public class LaparoCameraManager : MonoBehaviour
             }
         }
         vuforiaCam=GameObject.Find("ARCamera");
+        Text t=(Text)GameObject.Find("camName").GetComponent<Text>();
+        UnityEngine.UI.Image i=(UnityEngine.UI.Image)GameObject.Find("camBorder").GetComponent<UnityEngine.UI.Image>();
+        t.text=""+whichEndoscopeToTrack.Key;
+        t.color=whichEndoscopeToTrack.Value.colorForDisplay;
+        i.color=whichEndoscopeToTrack.Value.colorForDisplay;
     }
 
     // Update is called once per frame
