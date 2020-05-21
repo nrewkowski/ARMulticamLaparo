@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>1f371935-8e89-4cbb-a1cc-5d5a9fe78218</PackageIdentityName>
     <PackageIdentityPublisher>CN=nick</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\build\obj\LaparoTests\Win32\Master\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\build\obj\LaparoTests\Win32\Master\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\build\bin\Win32\Master\AppX</LayoutDir>
+    <LayoutDir>C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\build\bin\Win32\Master\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\build\bin\Win32\Master\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\build\bin\Win32\Master\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\build\bin\Win32\Master\LaparoTests.exe">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\build\bin\Win32\Master\LaparoTests.exe">
       <PackagePath>LaparoTests.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2019.2.9f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\x86\Master\UnityPlayer.winmd">
@@ -34,269 +34,299 @@
     <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2019.2.9f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\x86\Master\UnityPlayer.dll">
       <PackagePath>UnityPlayer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\build\bin\Win32\Master\LaparoTests.winmd">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\build\bin\Win32\Master\LaparoTests.winmd">
       <PackagePath>LaparoTests.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\StoreManifest.xml">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\StoreManifest.xml">
       <PackagePath>StoreManifest.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\il2cpp_data\etc\mono\mconfig\config.xml">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\il2cpp_data\etc\mono\mconfig\config.xml">
       <PackagePath>Data\il2cpp_data\etc\mono\mconfig\config.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\StreamingAssets\Vuforia\laparo4.xml">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\StreamingAssets\Vuforia\laparo2.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\laparo2.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\StreamingAssets\Vuforia\laparo4.xml">
       <PackagePath>Data\StreamingAssets\Vuforia\laparo4.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\boot.config">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\StreamingAssets\Vuforia\VuforiaMars_Images.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_Images.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\StreamingAssets\Vuforia\Vuforia_Marslander_RZR_Toy360.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\Vuforia_Marslander_RZR_Toy360.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\il2cpp_data\etc\mono\2.0\machine.config">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\il2cpp_data\etc\mono\2.0\machine.config">
       <PackagePath>Data\il2cpp_data\etc\mono\2.0\machine.config</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\il2cpp_data\etc\mono\2.0\web.config">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\il2cpp_data\etc\mono\2.0\web.config">
       <PackagePath>Data\il2cpp_data\etc\mono\2.0\web.config</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\il2cpp_data\etc\mono\4.0\machine.config">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\il2cpp_data\etc\mono\4.0\machine.config">
       <PackagePath>Data\il2cpp_data\etc\mono\4.0\machine.config</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\il2cpp_data\etc\mono\4.0\web.config">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\il2cpp_data\etc\mono\4.0\web.config">
       <PackagePath>Data\il2cpp_data\etc\mono\4.0\web.config</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\il2cpp_data\etc\mono\4.5\machine.config">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\il2cpp_data\etc\mono\4.5\machine.config">
       <PackagePath>Data\il2cpp_data\etc\mono\4.5\machine.config</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\il2cpp_data\etc\mono\4.5\web.config">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\il2cpp_data\etc\mono\4.5\web.config">
       <PackagePath>Data\il2cpp_data\etc\mono\4.5\web.config</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\globalgamemanagers">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\level0">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\level0">
       <PackagePath>Data\level0</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\il2cpp_data\etc\mono\config">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\il2cpp_data\etc\mono\config">
       <PackagePath>Data\il2cpp_data\etc\mono\config</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\Resources\unity default resources">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\Resources\unity_builtin_extra">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\globalgamemanagers.assets">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\resources.assets">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\resources.assets">
       <PackagePath>Data\resources.assets</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\sharedassets0.assets">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\globalgamemanagers.assets.resS">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\globalgamemanagers.assets.resS">
       <PackagePath>Data\globalgamemanagers.assets.resS</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\resources.assets.resS">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\resources.assets.resS">
       <PackagePath>Data\resources.assets.resS</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\sharedassets0.assets.resS">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\nativePlugins.txt">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\sharedassets0.resource">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\sharedassets0.resource">
       <PackagePath>Data\sharedassets0.resource</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\il2cpp_data\etc\mono\browscap.ini">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\il2cpp_data\etc\mono\browscap.ini">
       <PackagePath>Data\il2cpp_data\etc\mono\browscap.ini</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx">
       <PackagePath>Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx">
       <PackagePath>Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx">
       <PackagePath>Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\il2cpp_data\etc\mono\2.0\settings.map">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\il2cpp_data\etc\mono\2.0\settings.map">
       <PackagePath>Data\il2cpp_data\etc\mono\2.0\settings.map</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\il2cpp_data\etc\mono\4.0\settings.map">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\il2cpp_data\etc\mono\4.0\settings.map">
       <PackagePath>Data\il2cpp_data\etc\mono\4.0\settings.map</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\il2cpp_data\etc\mono\4.5\settings.map">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\il2cpp_data\etc\mono\4.5\settings.map">
       <PackagePath>Data\il2cpp_data\etc\mono\4.5\settings.map</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser">
       <PackagePath>Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser">
       <PackagePath>Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser">
       <PackagePath>Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\il2cpp_data\Metadata\global-metadata.dat">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\il2cpp_data\Metadata\global-metadata.dat">
       <PackagePath>Data\il2cpp_data\Metadata\global-metadata.dat</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\mscorlib.dll-resources.dat</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Data\StreamingAssets\Vuforia\laparo4.dat">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\StreamingAssets\Vuforia\laparo2.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\laparo2.dat</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\StreamingAssets\Vuforia\laparo4.dat">
       <PackagePath>Data\StreamingAssets\Vuforia\laparo4.dat</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\VuforiaWrapper.dll">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\StreamingAssets\Vuforia\VuforiaMars_Images.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_Images.dat</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.dat</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\StreamingAssets\Vuforia\VuforiaMars_VuMark.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_VuMark.dat</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Data\StreamingAssets\Vuforia\Vuforia_Marslander_RZR_Toy360.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\Vuforia_Marslander_RZR_Toy360.dat</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\VuforiaWrapper.dll">
       <PackagePath>VuforiaWrapper.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\AudioPluginMsHRTF.dll">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\AudioPluginMsHRTF.dll">
       <PackagePath>AudioPluginMsHRTF.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\Vuforia.dll">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\Vuforia.dll">
       <PackagePath>Vuforia.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\build\bin\Win32\Master\GameAssembly.dll">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\build\bin\Win32\Master\GameAssembly.dll">
       <PackagePath>GameAssembly.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\build\bin\Win32\Master\resources.pri">
+    <AppxPackagedFile Include="C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\build\bin\Win32\Master\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

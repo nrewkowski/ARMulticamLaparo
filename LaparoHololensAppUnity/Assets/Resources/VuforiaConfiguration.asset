@@ -22,8 +22,8 @@ MonoBehaviour:
     virtualSceneScaleFactor: 1
     useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
-    version: 9.0.12
-    eulaAcceptedVersions: '{"Values":["8.3","7.2","7.5","0.0","8.0","7.1","7.7","8.1","7.9","8.2","8.5","8.6","9.0"]}'
+    version: 9.1.7
+    eulaAcceptedVersions: '{"Values":["8.3","7.2","7.5","0.0","8.0","7.1","7.7","8.1","7.9","8.2","8.5","8.6","9.0","9.1"]}'
     modelTargetMode: 0
   database:
     disableModelExtraction: 0
@@ -31,9 +31,9 @@ MonoBehaviour:
     numDivisions: 2
     videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
       type: 3}
-    videoBackgroundEnabled: 1
+    videoBackgroundEnabled: 0
   deviceTracker:
-    autoStartTracker: 0
+    autoStartTracker: 1
     arcoreRequirement: 1
     autoImportArcore: 1
   playmode:

@@ -6,7 +6,7 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -15,7 +15,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -24,7 +24,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -33,7 +33,7 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -42,7 +42,7 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -51,7 +51,7 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -60,7 +60,7 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -83,7 +83,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -106,7 +106,7 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -129,7 +129,7 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -236,7 +236,7 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -245,7 +245,7 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -254,7 +254,7 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -263,7 +263,7 @@
             "fullManagedTypeName": "UnityEngine.Light",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -272,7 +272,7 @@
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -281,25 +281,7 @@
             "fullManagedTypeName": "UnityEngine.MeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AnimationClip",
-            "fullManagedTypeName": "UnityEngine.AnimationClip",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/cheapCams.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioSource",
-            "fullManagedTypeName": "UnityEngine.AudioSource",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -308,7 +290,7 @@
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -317,16 +299,7 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioClip",
-            "fullManagedTypeName": "UnityEngine.AudioClip",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -335,7 +308,7 @@
             "fullManagedTypeName": "UnityEngine.Collider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -344,7 +317,7 @@
             "fullManagedTypeName": "UnityEngine.MeshCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -353,7 +326,7 @@
             "fullManagedTypeName": "UnityEngine.CapsuleCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -362,7 +335,7 @@
             "fullManagedTypeName": "UnityEngine.BoxCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -371,7 +344,7 @@
             "fullManagedTypeName": "UnityEngine.SphereCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -380,7 +353,7 @@
             "fullManagedTypeName": "UnityEngine.TextMesh",
             "moduleName": "TextRendering",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -389,7 +362,7 @@
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -398,7 +371,7 @@
             "fullManagedTypeName": "UnityEngine.RectTransform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -407,7 +380,7 @@
             "fullManagedTypeName": "UnityEngine.Video.VideoPlayer",
             "moduleName": "Video",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -416,34 +389,7 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Animator",
-            "fullManagedTypeName": "UnityEngine.Animator",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/cheapCams.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "RuntimeAnimatorController",
-            "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/cheapCams.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Motion",
-            "fullManagedTypeName": "UnityEngine.Motion",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -452,7 +398,7 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -461,16 +407,7 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AnimatorController",
-            "fullManagedTypeName": "UnityEditor.Animations.AnimatorController",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -479,7 +416,7 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -488,7 +425,7 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -497,7 +434,7 @@
             "fullManagedTypeName": "UnityEngine.Font",
             "moduleName": "TextRendering",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -506,7 +443,7 @@
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -515,7 +452,7 @@
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -524,7 +461,7 @@
             "fullManagedTypeName": "UnityEngine.CanvasRenderer",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -533,16 +470,7 @@
             "fullManagedTypeName": "UnityEngine.CanvasGroup",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "",
-            "nativeClass": "SampleClip",
-            "fullManagedTypeName": "",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -551,7 +479,7 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -560,7 +488,7 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -569,7 +497,7 @@
             "fullManagedTypeName": "UnityEngine.Video.VideoClip",
             "moduleName": "Video",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -578,7 +506,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/cheapCams.unity"
+                "Assets/____otherstuff/cheapCams.unity"
             ]
         },
         {
@@ -592,34 +520,6 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "FrameRateSettings",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "HelpMenu",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "HoloToolkit.Unity.Billboard",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "HoloToolkit.Unity.Interpolator",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "HoloToolkit.Unity.Tagalong",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -647,21 +547,7 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Versions",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "ViveTrackerPlacer",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "VoiceCommands",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -718,6 +604,13 @@
             "managedAssemblyName": "Unity.TextMeshPro.dll",
             "nativeClass": "",
             "fullManagedTypeName": "TMPro.TMP_StyleSheet",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.SpatialTracking.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.SpatialTracking.TrackedPoseDriver",
             "moduleName": "",
             "usedInScenes": []
         },

@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-
-public enum LaparoEndoscopes{LeftHand,RightHand,BottomMiddle,BottomLeft,BottomRight,TopLeft,TopRight};
+//now in LaparoObjectInfo
+//public enum LaparoEndoscopes{LeftHand,RightHand,BottomMiddle,BottomLeft,BottomRight,TopLeft,TopRight};
 
 [Serializable]
 public class LaparoInfo{
@@ -16,12 +16,14 @@ public class LaparoInfo{
     public string vuforiaWebcamName;
     public int whichUDPPortToUse;
     public Color colorForDisplay;
-    public LaparoInfo(string[] nameOfMarkerForBaseCalibrationIn, int usbPortNumberIn, string vuforiaWebcamNameIn,int whichUDPPortToUseIn, Color camColor){
+    public LaparoEndoscopes[] nearbyCams;
+    public LaparoInfo(string[] nameOfMarkerForBaseCalibrationIn, int usbPortNumberIn, string vuforiaWebcamNameIn,int whichUDPPortToUseIn, Color camColor, LaparoEndoscopes[] nearbyCamsIn){
         nameOfMarkerForBaseCalibration=nameOfMarkerForBaseCalibrationIn;
         usbPortNumber=usbPortNumberIn;
         vuforiaWebcamName=vuforiaWebcamNameIn;
         whichUDPPortToUse=whichUDPPortToUseIn;
         colorForDisplay=camColor;
+        nearbyCams=nearbyCamsIn;
     }
 }
 
@@ -34,13 +36,13 @@ public class DefaultLaparoCameraInfo:MonoBehaviour{
     public LaparoEndoscopesInfoPairs laparoCameraInfoPairs = new LaparoEndoscopesInfoPairs
         {
             //appears defective
-            { LaparoEndoscopes.LeftHand, new LaparoInfo(new[]{"wolf"},52,"Endoscope52",8560, Color.red) },
-            { LaparoEndoscopes.RightHand, new LaparoInfo(new[]{"tiger"},4,"Endoscope4",8561, Color.green) },
+            { LaparoEndoscopes.LeftHand, new LaparoInfo(new[]{"wolf"},52,"Endoscope52",8560, Color.red,null) },
+            { LaparoEndoscopes.RightHand, new LaparoInfo(new[]{"tiger"},4,"Endoscope4",8561, Color.green,null) },
             //port doesn't matter here b/c there's only 1 of these
-            { LaparoEndoscopes.BottomMiddle, new LaparoInfo(new[]{"wolfmarkerblurred", "wolf2"},-1,"YPCendoscope",8562, Color.magenta) },
-            { LaparoEndoscopes.BottomLeft, new LaparoInfo(new[]{"wolfmarkerblurred", "wolf2"},25,"Endoscope25",8563, new Color(255,150,0)) },
-            { LaparoEndoscopes.BottomRight, new LaparoInfo(new[]{"tiger"},3,"Endoscope3",8564, Color.cyan) },
-            { LaparoEndoscopes.TopLeft, new LaparoInfo(new[]{"tiger"},1,"Endoscope1",8565, Color.blue) },
-            { LaparoEndoscopes.TopRight, new LaparoInfo(new[]{"wolfmarkerblurred", "wolf2"},2,"Endoscope2",8566, Color.yellow) }
+            { LaparoEndoscopes.BottomMiddle, new LaparoInfo(new[]{"wolfmarkerblurred", "wolf2"},-1,"YPCendoscope",8562, Color.magenta,null) },
+            { LaparoEndoscopes.BottomLeft, new LaparoInfo(new[]{"wolfmarkerblurred", "wolf2"},25,"Endoscope25",8563, Color.white,new[]{LaparoEndoscopes.TopLeft}) },
+            { LaparoEndoscopes.BottomRight, new LaparoInfo(new[]{"tiger"},3,"Endoscope3",8564, Color.cyan,new[]{LaparoEndoscopes.TopRight}) },
+            { LaparoEndoscopes.TopLeft, new LaparoInfo(new[]{"tiger"},1,"Endoscope1",8565, Color.blue,new[]{LaparoEndoscopes.BottomLeft}) },
+            { LaparoEndoscopes.TopRight, new LaparoInfo(new[]{"wolfmarkerblurred", "wolf2"},2,"Endoscope2",8566, Color.yellow,new[]{LaparoEndoscopes.BottomRight}) }
         };
 }

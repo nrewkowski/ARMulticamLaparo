@@ -25,11 +25,8 @@
 		<type fullname="UnityEngine.Light" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshFilter" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
-		<type fullname="UnityEngine.AnimationClip" preserve="nothing"/>
-		<type fullname="UnityEngine.AudioSource" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioBehaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioListener" preserve="nothing"/>
-		<type fullname="UnityEngine.AudioClip" preserve="nothing"/>
 		<type fullname="UnityEngine.Collider" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.CapsuleCollider" preserve="nothing"/>
@@ -40,12 +37,8 @@
 		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
 		<type fullname="UnityEngine.Video.VideoPlayer" preserve="nothing"/>
 		<type fullname="UnityEngine.Behaviour" preserve="nothing"/>
-		<type fullname="UnityEngine.Animator" preserve="nothing"/>
-		<type fullname="UnityEngine.RuntimeAnimatorController" preserve="nothing"/>
-		<type fullname="UnityEngine.Motion" preserve="nothing"/>
 		<type fullname="UnityEngine.Component" preserve="nothing"/>
 		<type fullname="UnityEngine.MonoBehaviour" preserve="nothing"/>
-		<type fullname="UnityEditor.Animations.AnimatorController" preserve="nothing"/>
 		<type fullname="UnityEngine.GameObject" preserve="nothing"/>
 		<type fullname="UnityEngine.LightmapSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.Font" preserve="nothing"/>
@@ -59,16 +52,10 @@
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="CustomTurnOffBehaviour" preserve="nothing"/>
 		<type fullname="FrameRateSettings" preserve="nothing"/>
-		<type fullname="HelpMenu" preserve="nothing"/>
-		<type fullname="HoloToolkit.Unity.Billboard" preserve="nothing"/>
-		<type fullname="HoloToolkit.Unity.Interpolator" preserve="nothing"/>
-		<type fullname="HoloToolkit.Unity.Tagalong" preserve="nothing"/>
 		<type fullname="InitErrorHandler" preserve="nothing"/>
 		<type fullname="MessageBox" preserve="nothing"/>
 		<type fullname="StatusMessage" preserve="nothing"/>
-		<type fullname="Versions" preserve="nothing"/>
 		<type fullname="ViveTrackerPlacer" preserve="nothing"/>
-		<type fullname="VoiceCommands" preserve="nothing"/>
 		<type fullname="moveapparatus" preserve="nothing"/>
 		<type fullname="nickmarker" preserve="nothing"/>
 		<type fullname="pointsreader" preserve="nothing"/>
@@ -79,6 +66,9 @@
 		<type fullname="TMPro.TMP_Settings" preserve="nothing"/>
 		<type fullname="TMPro.TMP_SpriteAsset" preserve="nothing"/>
 		<type fullname="TMPro.TMP_StyleSheet" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="UnityEngine.SpatialTracking">
+		<type fullname="UnityEngine.SpatialTracking.TrackedPoseDriver" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine.UI">
 		<type fullname="UnityEngine.UI.Button" preserve="nothing"/>

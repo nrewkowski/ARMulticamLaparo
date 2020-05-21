@@ -80,8 +80,6 @@ struct ICollection_1_t660EB7B2F3F89D4C2C786552DD91205E09886CBC;
 struct List_1_t4FB5BF302DAD74D690156A022C4FA4D4081E9B26;
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.EventSystem>
 struct List_1_t882412D5BE0B5BFC1900366319F8B2EB544BDD8B;
-// System.Collections.Generic.List`1<Vuforia.ITrackableEventHandler>
-struct List_1_t4654F3D4310BED7B5F902B36EB09610B09E6AF5E;
 // System.Comparison`1<UnityEngine.EventSystems.RaycastResult>
 struct Comparison_1_t32541D3F4C935BBA3800256BD21A7CA8148AAC13;
 // System.Delegate
@@ -2778,12 +2776,10 @@ public:
 	int32_t ___mStatusInfo_8;
 	// Vuforia.Trackable Vuforia.TrackableBehaviour::mTrackable
 	RuntimeObject* ___mTrackable_9;
-	// System.Collections.Generic.List`1<Vuforia.ITrackableEventHandler> Vuforia.TrackableBehaviour::mTrackableEventHandlers
-	List_1_t4654F3D4310BED7B5F902B36EB09610B09E6AF5E * ___mTrackableEventHandlers_10;
 	// System.Collections.Generic.ICollection`1<System.Action`1<Vuforia.TrackableBehaviour_StatusChangeResult>> Vuforia.TrackableBehaviour::mStatusChangedEventHandlers
-	RuntimeObject* ___mStatusChangedEventHandlers_11;
+	RuntimeObject* ___mStatusChangedEventHandlers_10;
 	// System.Collections.Generic.ICollection`1<System.Action`1<Vuforia.TrackableBehaviour_StatusInfoChangeResult>> Vuforia.TrackableBehaviour::mStatusInfoChangedEventHandlers
-	RuntimeObject* ___mStatusInfoChangedEventHandlers_12;
+	RuntimeObject* ___mStatusInfoChangedEventHandlers_11;
 
 public:
 	inline static int32_t get_offset_of_U3CTimeStampU3Ek__BackingField_4() { return static_cast<int32_t>(offsetof(TrackableBehaviour_t579D75AAFEF7B2D69F4B68931D5A58074E80A7E4, ___U3CTimeStampU3Ek__BackingField_4)); }
@@ -2836,31 +2832,22 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___mTrackable_9), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_mTrackableEventHandlers_10() { return static_cast<int32_t>(offsetof(TrackableBehaviour_t579D75AAFEF7B2D69F4B68931D5A58074E80A7E4, ___mTrackableEventHandlers_10)); }
-	inline List_1_t4654F3D4310BED7B5F902B36EB09610B09E6AF5E * get_mTrackableEventHandlers_10() const { return ___mTrackableEventHandlers_10; }
-	inline List_1_t4654F3D4310BED7B5F902B36EB09610B09E6AF5E ** get_address_of_mTrackableEventHandlers_10() { return &___mTrackableEventHandlers_10; }
-	inline void set_mTrackableEventHandlers_10(List_1_t4654F3D4310BED7B5F902B36EB09610B09E6AF5E * value)
+	inline static int32_t get_offset_of_mStatusChangedEventHandlers_10() { return static_cast<int32_t>(offsetof(TrackableBehaviour_t579D75AAFEF7B2D69F4B68931D5A58074E80A7E4, ___mStatusChangedEventHandlers_10)); }
+	inline RuntimeObject* get_mStatusChangedEventHandlers_10() const { return ___mStatusChangedEventHandlers_10; }
+	inline RuntimeObject** get_address_of_mStatusChangedEventHandlers_10() { return &___mStatusChangedEventHandlers_10; }
+	inline void set_mStatusChangedEventHandlers_10(RuntimeObject* value)
 	{
-		___mTrackableEventHandlers_10 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___mTrackableEventHandlers_10), (void*)value);
+		___mStatusChangedEventHandlers_10 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___mStatusChangedEventHandlers_10), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_mStatusChangedEventHandlers_11() { return static_cast<int32_t>(offsetof(TrackableBehaviour_t579D75AAFEF7B2D69F4B68931D5A58074E80A7E4, ___mStatusChangedEventHandlers_11)); }
-	inline RuntimeObject* get_mStatusChangedEventHandlers_11() const { return ___mStatusChangedEventHandlers_11; }
-	inline RuntimeObject** get_address_of_mStatusChangedEventHandlers_11() { return &___mStatusChangedEventHandlers_11; }
-	inline void set_mStatusChangedEventHandlers_11(RuntimeObject* value)
+	inline static int32_t get_offset_of_mStatusInfoChangedEventHandlers_11() { return static_cast<int32_t>(offsetof(TrackableBehaviour_t579D75AAFEF7B2D69F4B68931D5A58074E80A7E4, ___mStatusInfoChangedEventHandlers_11)); }
+	inline RuntimeObject* get_mStatusInfoChangedEventHandlers_11() const { return ___mStatusInfoChangedEventHandlers_11; }
+	inline RuntimeObject** get_address_of_mStatusInfoChangedEventHandlers_11() { return &___mStatusInfoChangedEventHandlers_11; }
+	inline void set_mStatusInfoChangedEventHandlers_11(RuntimeObject* value)
 	{
-		___mStatusChangedEventHandlers_11 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___mStatusChangedEventHandlers_11), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_mStatusInfoChangedEventHandlers_12() { return static_cast<int32_t>(offsetof(TrackableBehaviour_t579D75AAFEF7B2D69F4B68931D5A58074E80A7E4, ___mStatusInfoChangedEventHandlers_12)); }
-	inline RuntimeObject* get_mStatusInfoChangedEventHandlers_12() const { return ___mStatusInfoChangedEventHandlers_12; }
-	inline RuntimeObject** get_address_of_mStatusInfoChangedEventHandlers_12() { return &___mStatusInfoChangedEventHandlers_12; }
-	inline void set_mStatusInfoChangedEventHandlers_12(RuntimeObject* value)
-	{
-		___mStatusInfoChangedEventHandlers_12 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___mStatusInfoChangedEventHandlers_12), (void*)value);
+		___mStatusInfoChangedEventHandlers_11 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___mStatusInfoChangedEventHandlers_11), (void*)value);
 	}
 };
 

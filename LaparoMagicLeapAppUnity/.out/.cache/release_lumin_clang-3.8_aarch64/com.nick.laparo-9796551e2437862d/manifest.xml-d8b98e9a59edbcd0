@@ -1,0 +1,13 @@
+<manifest xmlns:ml="magicleap" ml:developer_id="f552ce15-e552-4b6a-b5dd-455291da83b4" ml:package="com.nick.laparo" ml:version_code="91" ml:version_name="9.1">
+  <application ml:min_api_level="4" ml:sdk_version="1.0" ml:visible_name="LaparoEndoscopes">
+    <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="LaparoEndoscopes">
+      <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
+    </component>
+    <uses-privilege ml:name="LowLatencyLightwear" />
+    <uses-privilege ml:name="PcfRead" />
+    <uses-privilege ml:name="ComputerVision" />
+    <uses-privilege ml:name="Internet" />
+    <uses-privilege ml:name="LocalAreaNetwork" />
+    <uses-privilege ml:name="CameraCapture" />
+  </application>
+</manifest>

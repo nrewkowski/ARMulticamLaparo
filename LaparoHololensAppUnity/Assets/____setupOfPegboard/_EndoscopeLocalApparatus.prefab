@@ -135,7 +135,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c83e7f8994f9e3b42b86fa3691fc742b, type: 2}
+  - {fileID: 2100000, guid: be942c91c477d704db0c81c76ae66c86, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -167,7 +167,7 @@ GameObject:
   - component: {fileID: 7065289619491662071}
   - component: {fileID: 7065289619491662065}
   m_Layer: 0
-  m_Name: _endoscopeLocalApparatus
+  m_Name: _EndoscopeLocalApparatus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -255,7 +255,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0c30811511454cc4c875ff18cf3b3799, type: 2}
+  - {fileID: 2100000, guid: be942c91c477d704db0c81c76ae66c86, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -125,6 +125,8 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.AnimationModule_CodeGen.c">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\UnityEngine.ARModule_CodeGen.c">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.AssetBundleModule_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.AudioModule_CodeGen.c">
@@ -152,6 +154,8 @@
     <ClCompile Include="Source\il2cppOutput\UnityEngine.PhysicsModule_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.SharedInternalsModule_CodeGen.c">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\UnityEngine.SpatialTracking_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.TerrainModule_CodeGen.c">
     </ClCompile>
@@ -190,8 +194,6 @@
     <ClCompile Include="Source\il2cppOutput\Assembly-CSharp.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Assembly-CSharp1.cpp">
-    </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\Assembly-CSharp2.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\GenericMethods.cpp">
     </ClCompile>
@@ -294,6 +296,8 @@
     <ClCompile Include="Source\il2cppOutput\Generics46.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics47.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics48.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics5.cpp">
     </ClCompile>
@@ -478,6 +482,8 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.AnimationModule.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\UnityEngine.ARModule.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.AssetBundleModule.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.AudioModule.cpp">
@@ -511,6 +517,8 @@
     <ClCompile Include="Source\il2cppOutput\UnityEngine.PhysicsModule.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.SharedInternalsModule.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\UnityEngine.SpatialTracking.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.TerrainModule.cpp">
     </ClCompile>

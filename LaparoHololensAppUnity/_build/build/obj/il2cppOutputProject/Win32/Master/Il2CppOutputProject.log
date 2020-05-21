@@ -4,12 +4,24 @@
   	Msvc Linker Path: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x86\link.exe
   	Msvc Compiler Path: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x86\cl.exe
   
-  	Output directory: C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\build\bin\Win32\Master
-  	Cache directory: C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\build\obj\il2cppOutputProject\Win32\Master
+  	Output directory: C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\build\bin\Win32\Master
+  	Cache directory: C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\build\obj\il2cppOutputProject\Win32\Master
+  Assembly-CSharp_CodeGen.c
+  Il2CppCompilerCalculateTypeValuesTable.cpp
   Assembly-CSharp1.cpp
-  ObjectFiles: 280 of which compiled: 1
-  	Time Compile: 1366 milliseconds Assembly-CSharp1.cpp
-  Total compilation time: 1559 milliseconds.
-  Creating library C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\build\obj\il2cppOutputProject\Win32\Master\linkresult_6E1623AF14BB6018CA739D7B40F4287F\GameAssembly.lib and object C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\build\obj\il2cppOutputProject\Win32\Master\linkresult_6E1623AF14BB6018CA739D7B40F4287F\GameAssembly.exp
-  Total link time: 10331 milliseconds.
-  Cleaned up 4 object files.
+  Il2CppCompilerCalculateTypeValues1.cpp
+  Il2CppInvokerTable.cpp
+  Assembly-CSharp.cpp
+  Il2CppAttributes.cpp
+  ObjectFiles: 284 of which compiled: 7
+  	Time Compile: 3686 milliseconds Il2CppAttributes.cpp
+  	Time Compile: 2633 milliseconds Assembly-CSharp.cpp
+  	Time Compile: 2582 milliseconds Il2CppInvokerTable.cpp
+  	Time Compile: 2359 milliseconds Il2CppCompilerCalculateTypeValues1.cpp
+  	Time Compile: 1953 milliseconds Assembly-CSharp1.cpp
+  	Time Compile: 404 milliseconds Il2CppCompilerCalculateTypeValuesTable.cpp
+  	Time Compile: 329 milliseconds Assembly-CSharp_CodeGen.c
+  Total compilation time: 3900 milliseconds.
+  Creating library C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\build\obj\il2cppOutputProject\Win32\Master\linkresult_D2BC7B31DA366C537FCD8E1B8598E272\GameAssembly.lib and object C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\build\obj\il2cppOutputProject\Win32\Master\linkresult_D2BC7B31DA366C537FCD8E1B8598E272\GameAssembly.exp
+  Total link time: 11363 milliseconds.
+  Cleaned up 16 object files.

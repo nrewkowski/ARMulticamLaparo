@@ -21,9 +21,9 @@ IL2CPP_EXTERN_C_END
 
 
 // 0x00000001 System.Void Windows.Foundation.AsyncActionCompletedHandler::.ctor(System.Object,System.IntPtr)
-extern void AsyncActionCompletedHandler__ctor_mA3EF78295FFD76E32F23FDCA986E5B9037B11297 ();
+extern void AsyncActionCompletedHandler__ctor_m2C0D2BD025FC8CDC21086373277D42874552060D ();
 // 0x00000002 System.Void Windows.Foundation.AsyncActionCompletedHandler::Invoke(Windows.Foundation.IAsyncAction,Windows.Foundation.AsyncStatus)
-extern void AsyncActionCompletedHandler_Invoke_m1EB292C3951327523F7E22B92F1638356AA1D577 ();
+extern void AsyncActionCompletedHandler_Invoke_m90ED997977A5C94AE5F5CB92A629FE2EDFA3D466 ();
 // 0x00000003 System.Void Windows.Foundation.AsyncOperationCompletedHandler`1::.ctor(System.Object,System.IntPtr)
 // 0x00000004 System.Void Windows.Foundation.AsyncOperationCompletedHandler`1::Invoke(Windows.Foundation.IAsyncOperation`1<TResult>,Windows.Foundation.AsyncStatus)
 // 0x00000005 System.Void Windows.Foundation.AsyncOperationProgressHandler`2::.ctor(System.Object,System.IntPtr)
@@ -470,8 +470,8 @@ extern void IBindableVectorView_get_Size_mB12143398D9A3942E36CE820551EE06F8EB5A7
 extern void IBindableVectorView_IndexOf_m091E767F9C60C5FE8A460A65F0C3476F1C1931C0 ();
 static Il2CppMethodPointer s_methodPointers[294] = 
 {
-	AsyncActionCompletedHandler__ctor_mA3EF78295FFD76E32F23FDCA986E5B9037B11297,
-	AsyncActionCompletedHandler_Invoke_m1EB292C3951327523F7E22B92F1638356AA1D577,
+	AsyncActionCompletedHandler__ctor_m2C0D2BD025FC8CDC21086373277D42874552060D,
+	AsyncActionCompletedHandler_Invoke_m90ED997977A5C94AE5F5CB92A629FE2EDFA3D466,
 	NULL,
 	NULL,
 	NULL,
@@ -843,11 +843,11 @@ static const int32_t s_InvokerIndices[294] =
 	95,
 	14,
 	679,
-	2010,
+	2033,
 	285,
-	2011,
-	2012,
-	2013,
+	2034,
+	2035,
+	2036,
 	6,
 	6,
 	6,
@@ -875,7 +875,7 @@ static const int32_t s_InvokerIndices[294] =
 	23,
 	23,
 	32,
-	1871,
+	1881,
 	32,
 	143,
 	143,
@@ -956,7 +956,7 @@ static const int32_t s_InvokerIndices[294] =
 	23,
 	23,
 	28,
-	2014,
+	2037,
 	958,
 	23,
 	23,
@@ -973,7 +973,7 @@ static const int32_t s_InvokerIndices[294] =
 	23,
 	23,
 	23,
-	2014,
+	2037,
 	958,
 	23,
 	23,
@@ -1035,7 +1035,7 @@ static const int32_t s_InvokerIndices[294] =
 	23,
 	95,
 	95,
-	2014,
+	2037,
 	958,
 	14,
 	647,

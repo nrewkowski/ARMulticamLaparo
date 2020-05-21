@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="dragonpng" size="0.070000 0.070000" />
+    <ImageTarget name="arucocolor6" size="0.070000 0.070000" />
+    <ImageTarget name="arucocolor5" size="0.070000 0.070000" />
+    <ImageTarget name="arucocolor4" size="0.070000 0.070000" />
+    <ImageTarget name="arucocolor3" size="0.070000 0.070000" />
+    <ImageTarget name="arucocolor2" size="0.070000 0.070000" />
+    <ImageTarget name="arucocolor" size="0.070000 0.070000" />
+    <ImageTarget name="7cm_scaled" size="0.070000 0.070000" />
+    <ImageTarget name="7x7_1000-0" size="0.070000 0.070000" />
+    <ImageTarget name="dragonbig" size="0.070000 0.070000" />
+    <ImageTarget name="4x4_1000-0" size="0.015000 0.015000" />
+    <ImageTarget name="marker23" size="0.015000 0.015000" />
+    <ImageTarget name="wolf" size="0.015000 0.015000" />
+    <ImageTarget name="wolf2" size="0.015000 0.015000" />
+    <ImageTarget name="bear2" size="0.015000 0.015000" />
+    <ImageTarget name="dragon" size="0.015000 0.015000" />
+  </Tracking>
+</QCARConfig>

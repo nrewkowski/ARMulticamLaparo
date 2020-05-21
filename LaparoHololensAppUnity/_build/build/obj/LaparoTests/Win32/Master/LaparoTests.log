@@ -1,11 +1,11 @@
 ﻿  App.cpp
   UnityGenerated.cpp
-c:\users\nrewkows\documents\unity projects\haopointscopy\_build\laparotests\app.cpp(26): warning C4973: 'Windows::UI::ViewManagement::IApplicationView2::SuppressSystemOverlays::set': marked as deprecated
-  c:\users\nrewkows\documents\unity projects\haopointscopy\_build\laparotests\app.cpp(26): note: Message: 'Use the TryEnterFullScreen method and IsFullScreenMode property instead of SuppressSystemOverlays. For more info, see MSDN.'
+c:\users\nrewkows\desktop\comp776final\laparohololensappunity\_build\laparotests\app.cpp(26): warning C4973: 'Windows::UI::ViewManagement::IApplicationView2::SuppressSystemOverlays::set': marked as deprecated
+  c:\users\nrewkows\desktop\comp776final\laparohololensappunity\_build\laparotests\app.cpp(26): note: Message: 'Use the TryEnterFullScreen method and IsFullScreenMode property instead of SuppressSystemOverlays. For more info, see MSDN.'
   Generating code
   0 of 160 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  LaparoTests.vcxproj -> C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\build\bin\Win32\Master\LaparoTests.exe
+  LaparoTests.vcxproj -> C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\build\bin\Win32\Master\LaparoTests.exe
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Microsoft\VisualStudio\v15.0\AppxPackage\Microsoft.AppXPackage.Targets(3126,5): warning : APPX4001: Build property AppxBundlePlatforms is not explicitly set and is calculated based on currently building architecture. Use 'Create App Package' wizard or edit project file to set it.

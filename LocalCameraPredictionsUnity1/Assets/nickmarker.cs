@@ -92,20 +92,13 @@ public class nickmarker : MonoBehaviour
         && (m_PreviousStatus==TrackableBehaviour.Status.TRACKED || m_PreviousStatus==TrackableBehaviour.Status.EXTENDED_TRACKED)){
             camManager.markerLost(this);
             print("!!!lost");
-            Transform colorPlane=this.gameObject.transform.Find("colorPlane");
-            if (colorPlane){
-                Color newColor=Color.red;
-                newColor.a=0.25f;
-                MeshRenderer meshRenderer=colorPlane.gameObject.GetComponent<MeshRenderer>();
-                if (meshRenderer){
-                    colorPlane.gameObject.GetComponent<MeshRenderer>().material.color=newColor;
-                } else{
-                    print("no mesh");
-                }
-            }
+            this.transform.Find("markerEdges").gameObject.GetComponent<MeshRenderer>().enabled=false;
+            OnTrackingLost();
+        } else{
+            this.transform.Find("markerEdges").gameObject.GetComponent<MeshRenderer>().enabled=false;
             OnTrackingLost();
         }
-        /*
+        
         if (!ShouldBeRendered(m_PreviousStatus) &&
             ShouldBeRendered(m_NewStatus))
         {
@@ -129,7 +122,7 @@ public class nickmarker : MonoBehaviour
                 // --> Hide the augmentation.
                 OnTrackingLost();
             }
-        }*/
+        }
 
         m_CallbackReceivedOnce = true;
     }
@@ -148,7 +141,7 @@ public class nickmarker : MonoBehaviour
             if (status == TrackableBehaviour.Status.EXTENDED_TRACKED)
             {
                 // also return true if the target is extended tracked
-                return true;
+                return false;
             }
         }
 
@@ -159,20 +152,26 @@ public class nickmarker : MonoBehaviour
             {
                 // in this mode, render the augmentation even if the target's tracking status is LIMITED.
                 // this is mainly recommended for Anchors.
-                return true;
+                return false;
             }
         }
 
-        return true;
+        return false;
     }
 
     protected virtual void OnTrackingFound()
     {
+        //this.transform.Find("markerEdges").gameObject.SetActive(true);
+        Transform t=this.transform.Find("markerEdges");
+        if (t==null){
+            print("__________________NULL!!!");
+        }
+        this.transform.Find("markerEdges").gameObject.GetComponent<MeshRenderer>().enabled=true;
         //print("FOUND!!!");
         //((LaparoCameraManager)GameObject.FindObjectOfType(typeof(LaparoCameraManager))).markerFound(this);
         if (mTrackableBehaviour)
-        {/*
-            var rendererComponents = mTrackableBehaviour.GetComponentsInChildren<Renderer>(true);
+        {
+            /*var rendererComponents = mTrackableBehaviour.GetComponentsInChildren<Renderer>(true);
             var colliderComponents = mTrackableBehaviour.GetComponentsInChildren<Collider>(true);
             var canvasComponents = mTrackableBehaviour.GetComponentsInChildren<Canvas>(true);
             
@@ -186,8 +185,8 @@ public class nickmarker : MonoBehaviour
 
             // Enable canvas':
             foreach (var component in canvasComponents)
-                component.enabled = true;
-                */
+                component.enabled = true;*/
+            
         }
 
         if (OnTargetFound != null)
@@ -196,10 +195,13 @@ public class nickmarker : MonoBehaviour
 
     protected virtual void OnTrackingLost()
     {
-        /*
-        print("_5");
+        //this.transform.Find("markerEdges").gameObject.SetActive(false);
+        this.transform.Find("markerEdges").gameObject.GetComponent<MeshRenderer>().enabled=false;
+        
+        //print("_5 "+this.name+" "+this.transform.Find("markerEdges").gameObject.name);
         if (mTrackableBehaviour)
         {
+            /*
             var rendererComponents = mTrackableBehaviour.GetComponentsInChildren<Renderer>(true);
             var colliderComponents = mTrackableBehaviour.GetComponentsInChildren<Collider>(true);
             var canvasComponents = mTrackableBehaviour.GetComponentsInChildren<Canvas>(true);
@@ -215,8 +217,9 @@ public class nickmarker : MonoBehaviour
             // Disable canvas':
             foreach (var component in canvasComponents)
                 component.enabled = false;
-                
-        }*/
+            */
+            
+        }
 
         if (OnTargetLost != null)
             OnTargetLost.Invoke();

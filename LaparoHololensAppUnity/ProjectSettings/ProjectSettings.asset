@@ -673,7 +673,7 @@ PlayerSettings:
   metroCertificatePassword: 
   metroCertificateSubject: nick
   metroCertificateIssuer: nick
-  metroCertificateNotAfter: 00aae95b0399d601
+  metroCertificateNotAfter: 8088513c2b4cd701
   metroApplicationDescription: ImageTargets, ModelTargets, and VuMarks on HoloLens
   wsaImages:
     65636: Assets/Common/Icons/UWP/StoreLogo.scale-100.png

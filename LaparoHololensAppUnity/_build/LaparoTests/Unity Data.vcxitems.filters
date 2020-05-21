@@ -2,52 +2,52 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Data">
-      <UniqueIdentifier>{0f1e760c-241e-4a65-95cc-14dcd863952b}</UniqueIdentifier>
+      <UniqueIdentifier>{d4572d35-df63-4ae7-8886-39598c3d574f}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono">
-      <UniqueIdentifier>{18853b5a-4dc7-4799-903f-5a80485ad574}</UniqueIdentifier>
+      <UniqueIdentifier>{b7ab70e4-b419-4cd6-8263-6cd9a2fd8f58}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\2.0">
-      <UniqueIdentifier>{752f6ecf-ca0d-4b63-882c-be76acde89de}</UniqueIdentifier>
+      <UniqueIdentifier>{f2f04ee0-0233-414c-8f63-c679e78c73a2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\2.0\Browsers">
-      <UniqueIdentifier>{783cd7c4-3704-40ac-a31f-95ad7e77b60c}</UniqueIdentifier>
+      <UniqueIdentifier>{1b1aac24-a60e-4394-bd91-e331fc131a10}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.0">
-      <UniqueIdentifier>{18d19806-497f-4d9e-ac4f-2da7421ff384}</UniqueIdentifier>
+      <UniqueIdentifier>{6356a4f4-0d62-43f1-9cac-c32993318309}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.0\Browsers">
-      <UniqueIdentifier>{0644dd08-49a0-4fa8-b05e-c0bf876565b5}</UniqueIdentifier>
+      <UniqueIdentifier>{cd4f171e-86a7-4463-8dd3-639f66cf4de0}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.5">
-      <UniqueIdentifier>{40193160-e71c-44b1-81af-ae2880321f50}</UniqueIdentifier>
+      <UniqueIdentifier>{e83fecd4-e1b9-4954-9cb3-63c688471430}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.5\Browsers">
-      <UniqueIdentifier>{7c2129cf-c4f9-451a-b782-7729ed7c3b6a}</UniqueIdentifier>
+      <UniqueIdentifier>{66552cf0-edf4-4323-a1f0-cb5d9a3e0376}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\mconfig">
-      <UniqueIdentifier>{3bc2ea32-acca-4595-ae36-c6e3caa0420c}</UniqueIdentifier>
+      <UniqueIdentifier>{227888e7-117e-482d-a00a-57d0a49d704a}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\Metadata">
-      <UniqueIdentifier>{63b5d560-b69f-435a-b5b3-edb9b2c6cea4}</UniqueIdentifier>
+      <UniqueIdentifier>{2936d97e-0e96-4f83-9182-c03b511dbdcc}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\Resources">
-      <UniqueIdentifier>{ce027d94-ba7e-4489-8338-ba72032bb87c}</UniqueIdentifier>
+      <UniqueIdentifier>{3ed52fa4-4391-456b-9d2a-7eb21e9b8453}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\Resources">
-      <UniqueIdentifier>{76977d30-15a1-45e2-b64d-410998eef176}</UniqueIdentifier>
+      <UniqueIdentifier>{581c7c78-79f4-4f1e-ad1c-bfdbdb7e6d5b}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\StreamingAssets\Vuforia">
-      <UniqueIdentifier>{02812d63-f7ca-4755-95c1-07a99e252081}</UniqueIdentifier>
+      <UniqueIdentifier>{891df6ed-0992-436f-b090-9ce7b2f8cc0b}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc">
-      <UniqueIdentifier>{eb884368-4d18-4ade-91a1-aba475dc0d76}</UniqueIdentifier>
+      <UniqueIdentifier>{80b45df2-f333-4ab0-8de0-97c4c23860aa}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data">
-      <UniqueIdentifier>{dec19889-2f8e-421b-8e98-2126a3634cb3}</UniqueIdentifier>
+      <UniqueIdentifier>{3a6f33c3-723a-4271-9217-2a8eb3e0c686}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\StreamingAssets">
-      <UniqueIdentifier>{d8b1ece4-6c73-4bd0-8f0e-861be697e881}</UniqueIdentifier>
+      <UniqueIdentifier>{88a22285-f133-4aaa-8a53-5e2f770b27c5}</UniqueIdentifier>
     </Filter>
     <Resource Include="$(MSBuildThisFileDirectory)Resource.res" />
     <None Include="$(MSBuildThisFileDirectory)StoreManifest.xml" />
@@ -155,10 +155,40 @@
     <None Include="$(MSBuildThisFileDirectory)Data\Resources\unity_builtin_extra">
       <Filter>Data\Resources</Filter>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Vuforia\laparo2.dat">
+      <Filter>Data\StreamingAssets\Vuforia</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Vuforia\laparo2.xml">
+      <Filter>Data\StreamingAssets\Vuforia</Filter>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Vuforia\laparo4.dat">
       <Filter>Data\StreamingAssets\Vuforia</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Vuforia\laparo4.xml">
+      <Filter>Data\StreamingAssets\Vuforia</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Vuforia\VuforiaMars_Images.dat">
+      <Filter>Data\StreamingAssets\Vuforia</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Vuforia\VuforiaMars_Images.xml">
+      <Filter>Data\StreamingAssets\Vuforia</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.dat">
+      <Filter>Data\StreamingAssets\Vuforia</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml">
+      <Filter>Data\StreamingAssets\Vuforia</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Vuforia\VuforiaMars_VuMark.dat">
+      <Filter>Data\StreamingAssets\Vuforia</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml">
+      <Filter>Data\StreamingAssets\Vuforia</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Vuforia\Vuforia_Marslander_RZR_Toy360.dat">
+      <Filter>Data\StreamingAssets\Vuforia</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Vuforia\Vuforia_Marslander_RZR_Toy360.xml">
       <Filter>Data\StreamingAssets\Vuforia</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)VuforiaWrapper.dll" />

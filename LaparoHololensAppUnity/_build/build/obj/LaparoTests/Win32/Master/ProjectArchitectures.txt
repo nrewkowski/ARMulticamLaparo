@@ -1,1 +1,1 @@
-C:\Users\nrewkows\Documents\Unity Projects\haopointscopy\_build\LaparoTests\LaparoTests.vcxproj;x86
+C:\Users\nrewkows\Desktop\COMP776Final\LaparoHololensAppUnity\_build\LaparoTests\LaparoTests.vcxproj;x86

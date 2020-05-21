@@ -496,7 +496,7 @@ IL2CPP_EXTERN_C RuntimeClass* IReadOnlyList_1_tE1CDE15B9B42B1A806D8626FC4DBD3FC0
 IL2CPP_EXTERN_C RuntimeClass* IWwwFormUrlDecoderEntryU5BU5D_t683CE1C0FB5F371BBB50572C71A8955037D7B313_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Il2CppComObject_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* InputStreamOptionsU5BU5D_tF25121D9C712D26D027EEE9BB94F1AB90F419EFB_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* InputStreamOptions_t30069DC0816A557D0697485558A4114A7C8634E3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* InputStreamOptions_t84A663CC3616A0D05994D54C1DA6B2E877F7FF82_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* KeyNotFoundException_tC28F8B9E114291001A5D135723673C6F292438E2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* KeyValuePair_2U5BU5D_t0049A6F56B79DA4AC9939EDEC6BB113B02318291_il2cpp_TypeInfo_var;
@@ -4522,14 +4522,14 @@ public:
 
 
 // Windows.Storage.Streams.InputStreamOptions
-struct  InputStreamOptions_t30069DC0816A557D0697485558A4114A7C8634E3 
+struct  InputStreamOptions_t84A663CC3616A0D05994D54C1DA6B2E877F7FF82 
 {
 public:
 	// System.UInt32 Windows.Storage.Streams.InputStreamOptions::value__
 	uint32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(InputStreamOptions_t30069DC0816A557D0697485558A4114A7C8634E3, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(InputStreamOptions_t84A663CC3616A0D05994D54C1DA6B2E877F7FF82, ___value___2)); }
 	inline uint32_t get_value___2() const { return ___value___2; }
 	inline uint32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(uint32_t value)
@@ -11708,7 +11708,7 @@ il2cpp_hresult_t IVector_1_IndexOf_m2D7EC8B87A6EF2152B1C97EAF968DB5FAFE8EF5E_Com
 		for (int i = 0; i < elementsInCollection; i++)
 		{
 			uint32_t item = InterfaceFuncInvoker1< uint32_t, int32_t >::Invoke(0 /* T System.Collections.Generic.IList`1<Windows.Storage.Streams.InputStreamOptions>::get_Item(System.Int32) */, IList_1_t8BF47762EE5C5CECD63DEE62CBE5A61F69DEECFB_il2cpp_TypeInfo_var, __this, i);
-			if (VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, Box(InputStreamOptions_t30069DC0816A557D0697485558A4114A7C8634E3_il2cpp_TypeInfo_var, &item), Box(InputStreamOptions_t30069DC0816A557D0697485558A4114A7C8634E3_il2cpp_TypeInfo_var, &___value0)))
+			if (VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, Box(InputStreamOptions_t84A663CC3616A0D05994D54C1DA6B2E877F7FF82_il2cpp_TypeInfo_var, &item), Box(InputStreamOptions_t84A663CC3616A0D05994D54C1DA6B2E877F7FF82_il2cpp_TypeInfo_var, &___value0)))
 			{
 				____index1_empty = static_cast<uint32_t>(i);
 				returnValue = true;
@@ -12469,7 +12469,7 @@ il2cpp_hresult_t IVectorView_1_IndexOf_m62D54B64B69CE1D93823F32B61E73D061D5DDED8
 		for (int i = 0; i < elementsInCollection; i++)
 		{
 			uint32_t item = InterfaceFuncInvoker1< uint32_t, int32_t >::Invoke(0 /* T System.Collections.Generic.IReadOnlyList`1<Windows.Storage.Streams.InputStreamOptions>::get_Item(System.Int32) */, IReadOnlyList_1_tBAFFC9F7F0223438C90C7215406F5890DDF5CAB3_il2cpp_TypeInfo_var, __this, i);
-			if (VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, Box(InputStreamOptions_t30069DC0816A557D0697485558A4114A7C8634E3_il2cpp_TypeInfo_var, &item), Box(InputStreamOptions_t30069DC0816A557D0697485558A4114A7C8634E3_il2cpp_TypeInfo_var, &___value0)))
+			if (VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, Box(InputStreamOptions_t84A663CC3616A0D05994D54C1DA6B2E877F7FF82_il2cpp_TypeInfo_var, &item), Box(InputStreamOptions_t84A663CC3616A0D05994D54C1DA6B2E877F7FF82_il2cpp_TypeInfo_var, &___value0)))
 			{
 				____index1_empty = static_cast<uint32_t>(i);
 				returnValue = true;

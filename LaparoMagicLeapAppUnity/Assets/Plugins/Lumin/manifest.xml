@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:ml="magicleap" ml:package="com.vuforia.engine.magicleapunity" ml:version_code="91" ml:version_name="9.1">
+  <application ml:sdk_version="1.0" ml:visible_name="VuforiaML" ml:min_api_level="4">
+    <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="VuforiaML">
+      <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
+    </component>
+    <uses-privilege ml:name="LowLatencyLightwear" />
+    <uses-privilege ml:name="PcfRead" />
+    <uses-privilege ml:name="ComputerVision" />
+    <uses-privilege ml:name="Internet" />
+    <uses-privilege ml:name="LocalAreaNetwork" />
+    <uses-privilege ml:name="CameraCapture" />
+  </application>
+</manifest>
